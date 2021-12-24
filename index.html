@@ -91,7 +91,7 @@
       <section class="ask">
         <div class="container">
           <div class="ask__content">
-            <h2 class="ask__title">
+            <h2 class="ask__title title-default">
               Рассчитайте стоимость работ
               по устройству вашего фасада прямо сейчас!
             </h2>
@@ -99,7 +99,7 @@
               Вы получите расчет и <span>персональную скидку 10%</span> за экономию нашего времени
             </div>
 
-            <form action="" class="quiz">
+            <form action="" method="POST" class="quiz">
               <div class="page page1">
               <div class="quiz__top">
                 <div class="quiz__status">
@@ -123,45 +123,45 @@
                   <input type="radio" class="answer-input" name="page1" id="page1-1" value="Загородный дом" required>
                   <label for="page1-1" class="page1-label1">
                   <img src="images/quiz/house-1.png" alt="house-1" class="answer-img">
-                  <div class="answer__content">
-                  <p>Загородный дом</p>
-                  </div>
+                  <span class="answer__content">
+                  <span>Загородный дом</span>
+                  </span>
                   </label>
                 </div>
                 <div class="quiz__answer-item">
                   <input type="radio" class="answer-input" name="page1" id="page1-2" value="Дача" required>
                   <label for="page1-2" class="page1-label2">
                   <img src="images/quiz/house-2.png" alt="house-2" class="answer-img">
-                  <div class="answer__content">
-                  <p>Дача</p>
-                  </div>
+                    <span class="answer__content">
+                    <span>Дача</span>
+                  </span>
                   </label>
                 </div>
                 <div class="quiz__answer-item">
                   <input type="radio" class="answer-input" name="page1" id="page1-3" value="Баня" required>
                   <label for="page1-3" class="page1-label3">
                   <img src="images/quiz/house-3.png" alt="house-3" class="answer-img">
-                  <div class="answer__content">
-                 <p>Баня</p>
-                  </div>
+                  <span class="answer__content">
+                 <span>Баня</span>
+                  </span>
                   </label>
                 </div>
                 <div class="quiz__answer-item">
                   <input type="radio" class="answer-input" name="page1" id="page1-4" value="Хозяйственная пристройка" required>
                   <label for="page1-4" class="page1-label4">
                   <img src="images/quiz/house-4.png" alt="house-4" class="answer-img">
-                  <div class="answer__content">
-                 <p>Хозяйственная пристройка</p>
-                  </div>
+                  <span class="answer__content">
+                 <span>Хозяйственная пристройка</span>
+                  </span>
                   </label>
                 </div>
                 <div class="quiz__answer-item">
                   <input type="radio" class="answer-input" name="page1" id="page1-5" value="Другой тип здания" required>
                   <label for="page1-5" class="page1-label5">
                   <img src="images/quiz/house-5.png" alt="house-5" class="answer-img">
-                  <div class="answer__content">
-                  <p>Другой тип здания</p>
-                  </div>
+                  <span class="answer__content">
+                  <span>Другой тип здания</span>
+                  </span>
                   </label>
                 </div>
               </div>
@@ -217,39 +217,38 @@
                       <input type="radio" class="answer-input" name="page2" id="page2-1" value="Газобетон" required>
                       <label for="page2-1" class="page2-label1">
                         <img src="images/quiz/material-1.png" alt="material-1" class="answer-img">
-                        <div class="answer__content">
-                          <p>Газобетон</p>
-                        </div>
+                        <span class="answer__content">
+                          <span>Газобетон</span>
+                        </span>
                       </label>
                     </div>
                     <div class="quiz__answer-item">
                       <input type="radio" class="answer-input" name="page2" id="page2-2" value="Кирпич" required>
                       <label for="page2-2" class="page2-label2">
                         <img src="images/quiz/material-2.png" alt="material-2" class="answer-img">
-                        <div class="answer__content">
-                          <p>Кирпич</p>
-                        </div>
+                        <span class="answer__content">
+                          <span>Кирпич</span>
+                        </span>
                       </label>
                     </div>
                     <div class="quiz__answer-item">
                       <input type="radio" class="answer-input" name="page2" id="page2-3" value="Дерево" required>
                       <label for="page2-3" class="page2-label3">
                         <img src="images/quiz/material-3.png" alt="material-3" class="answer-img">
-                        <div class="answer__content">
-                          <p>Дерево</p>
-                        </div>
+                        <span class="answer__content">
+                          <span>Дерево</span>
+                        </span>
                       </label>
                     </div>
                     <div class="quiz__answer-item">
                       <input type="radio" class="answer-input" name="page2" id="page2-4" value="Каркасный" required>
                       <label for="page2-4" class="page2-label4">
                         <img src="images/quiz/material-4.png" alt="material-4" class="answer-img">
-                        <div class="answer__content">
-                          <p>Каркасный</p>
-                        </div>
+                        <span class="answer__content">
+                          <span>Каркасный</span>
+                        </span>
                       </label>
                     </div>
-                      </label>
                     </div>
 
                   <div class="page2__answers">
@@ -326,29 +325,29 @@
                   <div class="quiz__answers">
                     <div class="quiz__answer-item">
                       <input type="radio" class="answer-input" name="page3-1" id="page3-1" value="Мокрый фасад" required>
-                      <label for="page3-1" class="page3-label1" required>
+                      <label for="page3-1" class="page3-label1">
                         <img src="images/quiz/type-1.png" alt="type-1" class="answer-img">
-                        <div class="answer__content">
-                          <p>Мокрый фасад</p>
-                        </div>
+                        <span class="answer__content">
+                          <span>Мокрый фасад</span>
+                        </span>
                       </label>
                     </div>
                     <div class="quiz__answer-item">
                       <input type="radio" class="answer-input" name="page3-1" id="page3-2" value="Термопанели" required>
                       <label for="page3-2" class="page3-label2">
                         <img src="images/quiz/type-2.png" alt="type-2" class="answer-img">
-                        <div class="answer__content">
-                          <p>Термопанели</p>
-                        </div>
+                        <span class="answer__content">
+                          <span>Термопанели</span>
+                        </span>
                       </label>
                     </div>
                     <div class="quiz__answer-item">
                       <input type="radio" class="answer-input" name="page3-1" id="page3-3" value="Вентилируемый фасад" required>
                       <label for="page3-3" class="page3-label3">
                         <img src="images/quiz/type-3.png" alt="type-3" class="answer-img">
-                        <div class="answer__content">
-                          <p>Вентилируемый фасад</p>
-                        </div>
+                        <span class="answer__content">
+                          <span>Вентилируемый фасад</span>
+                        </span>
                       </label>
                     </div>
                   </div>
@@ -432,54 +431,54 @@
                       <input type="radio" class="answer-input" name="page4" id="page4-1" value="Декоративная штукатурка" required>
                       <label for="page4-1" class="page3-label1">
                         <img src="images/quiz/wall-1.png" alt="wall-1" class="answer-img">
-                        <div class="answer__content">
-                          <p>Декоративная штукатурка</p>
-                        </div>
+                        <span class="answer__content">
+                          <span>Декоративная штукатурка</span>
+                        </span>
                       </label>
                     </div>
                     <div class="quiz__answer-item">
                       <input type="radio" class="answer-input" name="page4" id="page4-2" value="Дерево" required>
                       <label for="page4-2" class="page3-label2">
                         <img src="images/quiz/wall-2.png" alt="wall-2" class="answer-img">
-                        <div class="answer__content">
-                          <p>Дерево</p>
-                        </div>
+                        <span class="answer__content">
+                          <span>Дерево</span>
+                        </span>
                       </label>
                     </div>
                     <div class="quiz__answer-item">
                       <input type="radio" class="answer-input" name="page4" id="page4-3" value="Навесные панели" required>
                       <label for="page4-3" class="page3-label3">
                         <img src="images/quiz/wall-3.png" alt="wall-3" class="answer-img">
-                        <div class="answer__content">
-                          <p>Навесные панели</p>
-                        </div>
+                        <span class="answer__content">
+                          <span>Навесные панели</span>
+                        </span>
                       </label>
                     </div>
                     <div class="quiz__answer-item">
                       <input type="radio" class="answer-input" name="page4" id="page4-4" value="Плитка" required>
                       <label for="page4-4" class="page3-label3">
                         <img src="images/quiz/wall-4.png" alt="wall-4" class="answer-img">
-                        <div class="answer__content">
-                          <p>Плитка</p>
-                        </div>
+                        <span class="answer__content">
+                          <span>Плитка</span>
+                        </span>
                       </label>
                     </div>
                     <div class="quiz__answer-item">
                       <input type="radio" class="answer-input" name="page4" id="page4-5" value="Натуральный камень" required>
                       <label for="page4-5" class="page3-label3">
                         <img src="images/quiz/wall-5.png" alt="wall-5" class="answer-img">
-                        <div class="answer__content">
-                          <p>Натуральный камень</p>
-                        </div>
+                        <span class="answer__content">
+                          <span>Натуральный камень</span>
+                        </span>
                       </label>
                     </div>
                     <div class="quiz__answer-item">
                       <input type="radio" class="answer-input" name="page4" id="page4-6" value="Облицовочная кладка" required>
                       <label for="page4-6" class="page3-label3">
                         <img src="images/quiz/wall-6.png" alt="wall-6" class="answer-img">
-                        <div class="answer__content">
-                          <p>Облицовочная кладка</p>
-                        </div>
+                        <span class="answer__content">
+                          <span>Облицовочная кладка</span>
+                        </span>
                       </label>
                     </div>
                   </div>
@@ -729,6 +728,307 @@
               </div>
 
             </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="front">
+        <div class="front__title-bg">
+        <div class="container">
+          <div class="front__title title-default">
+            Устанавливаем красивые, надежные
+            и энергоэффективные фасады
+          </div>
+        </div>
+        </div>
+        <div class="front__tabs-bg">
+          <div class="container">
+          <div class="tabs-default front__tabs">
+              <div id="tabs">
+                <div class="tabs__nav">
+                  <div class="tabs__wrapper">
+                  <a href="#tab-1" class="tab"><span>Энергоэффективность</span></a>
+                  <a href="#tab-2" id="tab2" class="tab"><span>Надежность</span></a>
+                  <a href="#tab-3" class="tab"><span>Эстетика</span></a>
+                </div>
+                </div>
+
+                <div class="tabs__items">
+                  <div class="tabs__item" id="tab-1">
+                    <div class="features__content opened">
+                      <div class="features__item">
+                        <div class="_icon-plus"></div>
+                      </div>
+                      <div class="plus__text">
+                        <p>Возможность радикально
+                          изменить внешний вид вашего
+                          дома за счет современных
+                          отделочных материалов</p>
+                      </div>
+                    </div>
+                    <div class="features__content animated animate-1">
+                    <div class="features__item">
+                      <div class="_icon-plus"></div>
+                    </div>
+                      <div class="plus__text">
+                        <p>Возможность радикально
+                          изменить внешний вид вашего
+                          дома за счет современных
+                          отделочных материалов</p>
+                      </div>
+                    </div>
+                    <div class="features__content animated animate-2">
+                      <div class="features__item">
+                        <div class="_icon-plus"></div>
+                      </div>
+                      <div class="plus__text">
+                        <p>Возможность радикально
+                          изменить внешний вид вашего
+                          дома за счет современных
+                          отделочных материалов</p>
+                      </div>
+                    </div>
+                    <img src="images/tabs/front-tab1.png" alt="tab1">
+                  </div>
+                  <div class="tabs__item" id="tab-2">
+                    <div class="features__content opened">
+                      <div class="features__item">
+                        <div class="_icon-plus"></div>
+                      </div>
+                      <div class="plus__text">
+                        <p>Возможность радикально
+                          изменить внешний вид вашего
+                          дома за счет современных
+                          отделочных материалов</p>
+                      </div>
+                    </div>
+                    <div class="features__content animated animate-1">
+                      <div class="features__item">
+                        <div class="_icon-plus"></div>
+                      </div>
+                      <div class="plus__text">
+                        <p>Возможность радикально
+                          изменить внешний вид вашего
+                          дома за счет современных
+                          отделочных материалов</p>
+                      </div>
+                    </div>
+                    <div class="features__content">
+                      <div class="features__item">
+                        <div class="_icon-plus"></div>
+                      </div>
+                      <div class="plus__text">
+                        <p>Возможность радикально
+                          изменить внешний вид вашего
+                          дома за счет современных
+                          отделочных материалов</p>
+                      </div>
+                    </div>
+                    <div class="features__content">
+                      <div class="features__item">
+                        <div class="_icon-plus"></div>
+                      </div>
+                      <div class="plus__text mirrored">
+                        <p>Возможность радикально
+                          изменить внешний вид вашего
+                          дома за счет современных
+                          отделочных материалов</p>
+                      </div>
+                    </div>
+                    <img src="images/tabs/front-tab2.png" alt="tab2">
+                  </div>
+                  <div class="tabs__item" id="tab-3">
+                    <div class="features__content opened">
+                      <div class="features__item">
+                        <div class="_icon-plus"></div>
+                      </div>
+                      <div class="plus__text">
+                        <p>Возможность радикально
+                          изменить внешний вид вашего
+                          дома за счет современных
+                          отделочных материалов</p>
+                      </div>
+                    </div>
+                    <div class="features__content animated animate-1">
+                      <div class="features__item">
+                        <div class="_icon-plus"></div>
+                      </div>
+                      <div class="plus__text">
+                        <p>Возможность радикально
+                          изменить внешний вид вашего
+                          дома за счет современных
+                          отделочных материалов</p>
+                      </div>
+                    </div>
+                    <div class="features__content animated animate-2">
+                      <div class="features__item">
+                        <div class="_icon-plus"></div>
+                      </div>
+                      <div class="plus__text">
+                        <p>Возможность радикально
+                          изменить внешний вид вашего
+                          дома за счет современных
+                          отделочных материалов</p>
+                      </div>
+                    </div>
+                    <img src="images/tabs/front-tab1.png" alt="tab3">
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+      </section>
+
+      <section class="technology">
+        <div class="container">
+          <div class="technology__title title-default">Используем проверенные и современные
+            технологии устройства и утепления фасадов </div>
+          <div class="tabs-default technology__tabs">
+            <div id="tabs_2">
+              <div class="tabs__nav">
+                <div class="tabs__wrapper">
+                  <a href="#tab-2-1" class="tab"><span>Мокрый фасад</span></a>
+                  <a href="#tab-2-2" id="tab2_2" class="tab"><span>Вентилируемый фасад</span></a>
+                  <a href="#tab-2-3" class="tab"><span>Фасадные термопанели</span></a>
+                </div>
+              </div>
+
+              <div class="tabs__items">
+                <div class="tabs__item" id="tab-2-1">
+                    <div class="technology__wrapper">
+                      <div class="technology__image">
+                        <img src="images/tabs/wall-1.png" alt="wall-1">
+                      </div>
+                      <div class="technology__features">
+                        <div class="technology__features-item">
+                          <div class="technology__icon">
+                            <img src="images/icons/bag.svg" alt="bag">
+                          </div>
+                          <div class="technology__text text-1"><p>Экономичная в реализации технология,</p>
+                            <p>не требующая серьезных материальных затрат</p></div>
+                        </div>
+                        <div class="technology__features-item">
+                          <div class="technology__icon">
+                            <img src="images/icons/shield-2.svg" alt="shield">
+                          </div>
+                          <div class="technology__text text-2">Мокрый фасад обладает высокой устойчивостью
+                            к механических повреждениям</div>
+                        </div>
+                        <div class="technology__features-item">
+                          <div class="technology__icon">
+                            <img src="images/icons/temperature.svg" alt="temperature">
+                          </div>
+                          <div class="technology__text text-3">Высокая тепло- и звукоизоляция
+                            обеспечат комфортное проживание</div>
+                        </div>
+                        <div class="technology__features-item">
+                          <div class="technology__icon">
+                            <img src="images/icons/brickWall.svg" alt="brickWall">
+                          </div>
+                          <div class="technology__text text-4">За счет малого веса, отлично подходит для старых зданий,
+                            не требует укрепления фундамента и цокольных этажей</div>
+                        </div>
+                        <div class="technology__features-item">
+                          <div class="technology__icon">
+                            <img src="images/icons/drop.svg" alt="drop">
+                          </div>
+                          <div class="technology__text text-5">Выводит «точку росы» за пределы внутренних стен и защищает
+                            ваш дом от промерзания в осенне-зимний период</div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="tabs__item" id="tab-2-2">
+                  <div class="technology__wrapper">
+                    <div class="technology__image">
+                      <img src="images/tabs/wall-2.png" alt="wall-2">
+                    </div>
+                    <div class="technology__features">
+                      <div class="technology__features-item">
+                        <div class="technology__icon">
+                          <img src="images/icons/calendar.svg" alt="calendar">
+                        </div>
+                        <div class="technology__text text-1">Служат 25-50 лет в зависимости
+                          от применяемого материала</div>
+                      </div>
+                      <div class="technology__features-item">
+                        <div class="technology__icon">
+                          <img src="images/icons/brickWall-2.svg" alt="brickWall-2">
+                        </div>
+                        <div class="technology__text text-2">Отсутствие специальных требований к поверхности
+                          несущей стены (не нужно выравнивание)</div>
+                      </div>
+                      <div class="technology__features-item">
+                        <div class="technology__icon">
+                          <img src="images/icons/snow.svg" alt="snow">
+                        </div>
+                        <div class="technology__text text-3">Можно устанавливать
+                          круглый год в любую погоду</div>
+                      </div>
+                      <div class="technology__features-item">
+                        <div class="technology__icon">
+                          <img src="images/icons/wind.svg" alt="wind">
+                        </div>
+                        <div class="technology__text text-4">Вентиляция внутренних слоев фасада
+                          (удаление влаги, образующейся за счет диффузии водяных паров)</div>
+                      </div>
+                      <div class="technology__features-item">
+                        <div class="technology__icon">
+                          <img src="images/icons/tiles.svg" alt="tiles">
+                        </div>
+                        <div class="technology__text text-5">Большой выбор по материалам облицовки: керамогранит,
+                          клинкерная плитка, натуральный камень и т.д.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tabs__item" id="tab-2-3">
+                  <div class="technology__wrapper">
+                    <div class="technology__image">
+                      <img src="images/tabs/wall-3.png" alt="wall-3">
+                    </div>
+                    <div class="technology__features">
+                      <div class="technology__features-item">
+                        <div class="technology__icon">
+                          <img src="images/icons/calendar.svg" alt="calendar">
+                        </div>
+                        <div class="technology__text">Надежность и долговечность термофасада впечатляет:
+                          прослужит 50-100 лет без ремонта</div>
+                      </div>
+                      <div class="technology__features-item">
+                        <div class="technology__icon">
+                          <img src="images/icons/tiles.svg" alt="tiles">
+                        </div>
+                        <div class="technology__text">Самонесущая конструкция, не требующая укрепления
+                          и дополнительных фундаментов</div>
+                      </div>
+                      <div class="technology__features-item">
+                        <div class="technology__icon">
+                          <img src="images/icons/drop.svg" alt="drop">
+                        </div>
+                        <div class="technology__text text-3">Отсутствие «мокрых» процессов и вытекающих
+                          из них проблем монтажа фасадов</div>
+                      </div>
+                      <div class="technology__features-item">
+                        <div class="technology__icon">
+                          <img src="images/icons/wrench.svg" alt="wrench">
+                        </div>
+                        <div class="technology__text text-4">Кратчайшие сроки монтажа
+                          <p>(полная облицовка коттеджа за 2-3 недели)</p></div>
+                      </div>
+                      <div class="technology__features-item">
+                        <div class="technology__icon">
+                          <img src="images/icons/leaf.svg" alt="leaf">
+                        </div>
+                        <div class="technology__text">Экологическая чистота материалов, используемых
+                          для установки термофасадов</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
